@@ -55,8 +55,8 @@ for j, V0 in enumerate(V0_lst):
     ax[a,b].set_ylim(ymin=-0.1)
 handles, labels = ax[0,0].get_legend_handles_labels()    
 fig.legend(handles, labels, loc='best')
-fig.savefig('/Users/Georgia/Dropbox/phd/own_notes/first_year_report/bandstructure.pdf', 
-            format='pdf', bbox_inches='tight')
+# fig.savefig('/Users/Georgia/Dropbox/phd/own_notes/first_year_report/bandstructure.pdf', 
+#             format='pdf', bbox_inches='tight')
 
 plt.show()
 
@@ -132,9 +132,9 @@ for num1, n, in enumerate(ns):
 handles, labels = ax[0,0].get_legend_handles_labels()    
 fig.legend(handles, labels, loc='right')
 
-fig.savefig('/Users/Georgia/Dropbox/phd/own_notes/'+
-            'first_year_report/blochwaves.pdf', 
-            format='pdf', bbox_inches='tight')
+# fig.savefig('/Users/Georgia/Dropbox/phd/own_notes/'+
+#             'first_year_report/blochwaves.pdf', 
+#             format='pdf', bbox_inches='tight')
 
 plt.show()
 
